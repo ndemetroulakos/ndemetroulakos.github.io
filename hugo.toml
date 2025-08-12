@@ -1,0 +1,19 @@
+baseURL = 'https://ndemetroulakos.github.io/'
+languageCode = 'en-us'
+title = 'nemetroulakos'
+theme = 'PaperMod'
+
+[params]
+homeInfoParams.Title = "nick"
+homeInfoParams.Content = ""
+
+[menu]
+[[menu.main]]
+name = "writing"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+name = "about"
+url = "/about/"
+weight = 20
